@@ -1,0 +1,4 @@
+module(
+    name = "zmqpp",
+    version = "4.2.0",
+)

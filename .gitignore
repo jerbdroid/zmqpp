@@ -3,3 +3,9 @@ docs
 .cproject
 .project
 .settings
+
+**/bazel-bin
+**/bazel-out
+**/bazel-testlogs
+**/bazel-zmqpp
+MODULE.bazel.lock

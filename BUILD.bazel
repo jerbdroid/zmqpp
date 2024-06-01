@@ -1,0 +1,17 @@
+filegroup(
+    name = "srcs",
+    srcs = glob(["src/**"]),
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "zmqpp",
+    srcs = glob(["src/zmqpp/*.cpp"]),
+    hdrs = glob([
+        "src/zmqpp/*.hpp",
+    ]),
+    defines = [
+    ],
+    includes = ["src"],
+    deps = [],
+)
